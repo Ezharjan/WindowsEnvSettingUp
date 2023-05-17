@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\VSCode] ;右击文件时弹出的菜单
+@="Open with VS Code" ;显示的文字
+"Icon"="D:\\Adobe After Effects\\VS_Code\\Microsoft VS Code\\Code.exe" ;显示的图标
+
+[HKEY_CLASSES_ROOT\*\shell\VSCode\command] ;要执行的命令
+@="\"D:\\Adobe After Effects\\VS_Code\\Microsoft VS Code\\Code.exe\" \"%1\"" ;具体的命令代码，%1代表第一个参数，即右击选中的那个文件的路径
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\VSCode] ;右击文件夹时弹出的菜单
+@="Open with Visual Studio Code"
+"Icon"="D:\\Adobe After Effects\\VS_Code\\Microsoft VS Code\\Code.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\VSCode\command]
+@="\"D:\\Adobe After Effects\\VS_Code\\Microsoft VS Code\\Code.exe\" \"%V\"" ;%V意思同%1，只不过在路径为空时替换为当前工作路径
