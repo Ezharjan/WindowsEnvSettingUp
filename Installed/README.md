@@ -42,7 +42,7 @@ Including some portable tools and its shortcuts.
 34. [Pomotroid Timer](https://splode.github.io/pomotroid/)
 35. [Wireshark](https://www.wireshark.org/download.html)
 36. [Libre Office](https://www.libreoffice.org/download/download-libreoffice/)
-37. [Renamer-文件批量重命名神器](https://www.den4b.com/products)
+37. [Renamer](https://www.den4b.com/products)
 38. [Online Video Downloader](https://github.com/KurtBestor/Hitomi-Downloader/releases)
 39. Adobe Series Family
 40. Microsoft Office Family
